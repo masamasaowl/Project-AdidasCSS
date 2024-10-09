@@ -9,15 +9,16 @@
 .navbar{
     width: 100%;
     height: 80px;
-    padding: 0px 40px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .navlogo{  
     width: 62px;
     height: 45px;
+    margin-left: 40px;
 }
 .logo{
     background-image: url(../adidas_logo-removebg-preview.png);
@@ -25,4 +26,40 @@
     /* gave height and width after the inspecting */
     width: 60px;
     height: 42px;
+}
+.navtop{
+    height: 32px;
+    width: 1200px;
+}
+.navtop ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 32px;
+
+}
+.navtop ul li {
+    list-style-type: none;
+    font-size: 12px;
+    margin: 10px;
+}
+.navbottom{
+    width: 710px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.navbottom ul{
+    display: flex;
+}
+.navbottom ul li{
+    list-style-type: none;
+    margin: 0px 10px;
+    font-size: 14px;
+
+}
+.navbold{
+    font-weight: 600;
 }
